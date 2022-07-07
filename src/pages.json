@@ -1,0 +1,212 @@
+{
+	"pages": [
+		{
+			"path": "pages/shelves/index",
+			"style": {
+				"navigationBarTitleText": "书架",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "书城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/categories/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/ranking/index",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+      }
+    },
+    {
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "书籍详情",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/directory/index",
+			"style": {
+				"navigationBarTitleText": "章节信息",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/comments/index",
+			"style": {
+				"navigationBarTitleText": "书评",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/categories-list/index",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/search-list/index",
+			"style": {
+				"navigationBarTitleText": "搜索列表",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/history/index",
+			"style": {
+				"navigationBarTitleText": "浏览历史",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/my-comments/index",
+			"style": {
+				"navigationBarTitleText": "我的书评",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+			"path": "pages/user-info/index",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+      "path": "pages/update-info/index",
+			"style": {
+				"navigationBarTitleText": "修改信息",
+				"enablePullDownRefresh": false
+			}
+    },
+    {
+      "path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"enablePullDownRefresh": false
+			}
+    },
+    {
+			"path": "pages/settings/index",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+    {
+      "path": "pages/manage-shelves/index",
+			"style": {
+				"navigationBarTitleText": "管理书架",
+				"enablePullDownRefresh": false
+			}
+    },
+    {
+      "path": "pages/reader/index",
+			"style": {
+				"navigationBarTitleText": "朝夕阅读",
+				"enablePullDownRefresh": false
+			}
+    }
+	],
+  "tabBar": {
+		"selectedColor": "#1296db",
+		"color": "#707070",
+		"list": [
+      {
+				"text": "书架",
+				"pagePath": "pages/shelves/index",
+				"iconPath": "static/img/shelves.png",
+				"selectedIconPath": "static/img/shelves-o.png"
+			},
+      {
+				"text": "书城",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home-o.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/categories/index",
+				"iconPath": "static/img/categories.png",
+				"selectedIconPath": "static/img/categories-o.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/profile/index",
+				"iconPath": "static/img/profile.png",
+				"selectedIconPath": "static/img/profile-o.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+    "navigationBarTitleText": "朝夕",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-button": "/wxcomponents/vant/button/index",
+      "van-tab": "/wxcomponents/vant/tab/index",
+      "van-tabs": "/wxcomponents/vant/tabs/index",
+      "van-divider": "/wxcomponents/vant/divider/index",
+      "van-search": "/wxcomponents/vant/search/index",
+      "van-cell": "/wxcomponents/vant/cell/index",
+      "van-cell-group": "/wxcomponents/vant/cell-group/index",
+      "van-tag": "/wxcomponents/vant/tag/index",
+      "van-icon": "/wxcomponents/vant/icon/index",
+      "van-field": "/wxcomponents/vant/field/index",
+      "van-switch": "/wxcomponents/vant/switch/index",
+      "van-dialog": "/wxcomponents/vant/dialog/index",
+      "van-collapse": "/wxcomponents/vant/collapse/index",
+      "van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+      "van-checkbox": "/wxcomponents/vant/checkbox/index",
+      "van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+      "van-popup": "/wxcomponents/vant/popup/index",
+      "van-slider": "/wxcomponents/vant/slider/index",
+      "van-tabbar": "/wxcomponents/vant/tabbar/index",
+      "van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+      "van-skeleton": "/wxcomponents/vant/skeleton/index",
+      "van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+      "van-rate": "/wxcomponents/vant/rate/index",
+      "van-empty": "/wxcomponents/vant/empty/index",
+      "van-progress": "/wxcomponents/vant/progress/index"
+    }
+	}
+}
